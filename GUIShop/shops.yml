@@ -1,0 +1,842 @@
+###########################################################################
+#                           Looking for Item Names?                       #
+###########################################################################
+#                          https://tinyurl.com/okqdcvo                    #
+###########################################################################
+#                               Placeholders                              #
+#               Placeholders are available to you for item                #
+#                options such as: shop-name, buy-name,                    #
+#                   shop-lore, buy-lore and commands.                     #
+#                                                                         #
+#  {ITEM_SHOP_NAME} - The declared shop-name.                             #
+#  {ITEM_BUY_NAME} - The declared buy-name.                               #
+#  {PLAYER_NAME} - Name of player who clicks shop item. Only Supports     #
+#  buy-lore, buy-name, commands.                                          #
+#  {PLAYER_UUID} - UUID of player who clicks shop item. Only Supports     #
+#  buy-lore, buy-name, commands.                                          #
+#  {BUY_PRICE} - The declared buy-price of the item.                      #
+#  {SELL_PRICE} - The declared sell-price of the item.                    #
+#  {CURRENY_SYMBOL} - The declared symbol in config.yml                   #
+#  {CURRENCY_SUFFIX} - The declared suffix in config.yml                  #
+###########################################################################
+#                    Available Item Fields & Their Purpose:               #
+#                      REQ = REQUIRED, OPT = OPTIONAL.                    #
+#                                                                         #
+# id ~ REQ ~ Material name of the Item. Use names from the link above.    #
+# type ~ OPT ~ SHOP, COMMAND, BLANK, DUMMY, Default: SHOP.                #
+# shop-name ~ OPT ~ Custom name of item only inside the shop.             #
+# buy-name ~ OPT ~ Custom name of item only on purchased item.            #
+# buy-price ~ REQ ~ Cost of the item, false to prevent buying.            #
+# sell-price ~ REQ ~ Sell value of item. false to prevent selling.        #
+# enchantments ~ OPT ~ Enchantments of an item. E.G 'DURA:1 SHARP:2'      #
+# shop-lore ~ OPT ~ Custom lore to display only on the shop item.         #
+# buy-lore ~ OPT ~ Custom lore to display on purchased item.              #
+# commands ~ Required only if type is COMMAND ~ List of commands to run.  #
+# #########################################################################
+
+
+Raiding:
+#  '0':
+#    type: COMMAND
+#    id: COMPARATOR
+#    buy-price: 200.0
+#    sell-price: 100.0
+#    shop-lore:
+#    - '&aLine 1'
+#    - '&bLine 2'
+#    shop-name: '&4Heal Command Test'
+#    commands:
+#    - heal {PLAYER_NAME}
+#    - broadcast {PLAYER_NAME} purchased {ITEM_SHOP_NAME}&a for {BUY_PRICE}.
+  '0':
+    type: SHOP
+    id: PISTON
+    buy-price: 100.0
+    sell-price: 10.0
+  '1':
+    type: SHOP
+    id: STICKY_PISTON
+    buy-price: 110.0
+  '2':
+    type: SHOP
+    id: REDSTONE_BLOCK
+    buy-price: 150.0
+    sell-price: 50.0
+  '3':
+    type: SHOP
+    id: DROPPER
+  '4':
+    type: SHOP
+    id: DISPENSER
+    buy-price: 100.0
+  '5':
+    type: SHOP
+    id: LEVER
+    buy-price: 2.0
+  '6':
+    type: SHOP
+    id: STONE_BUTTON
+    buy-price: 2.0
+  '7':
+    type: SHOP
+    id: OAK_BUTTON
+    buy-price: 2.0
+  '8':
+    type: SHOP
+    id: STONE_PRESSURE_PLATE
+    buy-price: 2.0
+  '9':
+    type: SHOP
+    id: OAK_PRESSURE_PLATE
+    buy-price: 2.0
+  '10':
+    type: SHOP
+    id: REDSTONE_TORCH
+    buy-price: 12.0
+  '11':
+    type: SHOP
+    id: TRIPWIRE_HOOK
+    buy-price: 50.0
+  '12':
+    type: SHOP
+    id: ACACIA_SIGN
+    buy-price: 1.0
+  '13':
+    type: SHOP
+    id: COBWEB
+    buy-price: 8.0
+  '14':
+    type: SHOP
+    id: REDSTONE
+    buy-price: 15.0
+    sell-price: 5.0
+  '15':
+    type: SHOP
+    id: WATER_BUCKET
+    buy-price: 150.0
+  '16':
+    type: SHOP
+    id: LAVA_BUCKET
+    buy-price: 150.0
+  '17':
+    type: SHOP
+    id: STONE_SLAB
+    buy-price: 3.0
+  '18':
+    type: SHOP
+    id: OAK_SLAB
+    buy-price: 3.0
+  '19':
+    type: SHOP
+    id: REDSTONE_LAMP
+    buy-price: 100.0
+Ores:
+  '0':
+    type: SHOP
+    id: EMERALD
+    buy-price: 200.0
+    sell-price: 80.0
+  '1':
+    type: SHOP
+    id: DIAMOND
+    buy-price: 400.0
+    sell-price: 100.0
+  '2':
+    type: SHOP
+    id: GOLD_INGOT
+    buy-price: 70.0
+    sell-price: 10.0
+  '3':
+    type: SHOP
+    id: IRON_INGOT
+    buy-price: 15.0
+    sell-price: 7.0
+  '4':
+    type: SHOP
+    id: COAL
+    buy-price: 15.0
+    sell-price: 5.0
+  '5':
+    type: SHOP
+    id: CHARCOAL
+    buy-price: 15.0
+    sell-price: 5.0
+  '6':
+    type: SHOP
+    id: REDSTONE
+    buy-price: 15.0
+    sell-price: 5.0
+  '7':
+    type: SHOP
+    id: LAPIS_LAZULI
+    buy-price: 5.0
+    sell-price: 1.0
+  '8':
+    type: SHOP
+    id: QUARTZ
+    buy-price: 14.0
+    sell-price: 3.0
+FarmingDrops:
+  '0':
+    type: SHOP
+    id: OAK_SAPLING
+    buy-price: 2.0
+  '1':
+    type: SHOP
+    id: SPRUCE_SAPLING
+    buy-price: 2.0
+  '2':
+    type: SHOP
+    id: BIRCH_SAPLING
+    buy-price: 2.0
+  '3':
+    type: SHOP
+    id: JUNGLE_SAPLING
+    buy-price: 2.0
+  '4':
+    type: SHOP
+    id: ACACIA_SAPLING
+    buy-price: 2.0
+  '5':
+    type: SHOP
+    id: DARK_OAK_SAPLING
+    buy-price: 2.0
+  '6':
+    type: SHOP
+    id: WHEAT_SEEDS
+    buy-price: 2.0
+  '7':
+    type: SHOP
+    id: PUMPKIN_SEEDS
+    buy-price: 2.0
+  '8':
+    type: SHOP
+    id: MELON_SEEDS
+    buy-price: 2.0
+  '9':
+    type: SHOP
+    id: SUGAR_CANE
+    buy-price: 12.0
+  '10':
+    type: SHOP
+    id: CACTUS
+    buy-price: 20.0
+  '11':
+    type: SHOP
+    id: NETHER_WART
+    buy-price: 12.0
+  '12':
+    type: SHOP
+    id: COCOA_BEANS
+    buy-price: 10.0
+  '13':
+    type: SHOP
+    id: VINE
+    buy-price: 10.0
+  '14':
+    type: SHOP
+    id: BROWN_MUSHROOM
+    buy-price: 30.0
+  '15':
+    type: SHOP
+    id: RED_MUSHROOM
+    buy-price: 5.0
+  '16':
+    type: SHOP
+    id: WHEAT
+    buy-price: 9.0
+  '17':
+    type: SHOP
+    id: BONE
+    buy-price: 10.0
+    sell-price: 2.0
+  '18':
+    type: SHOP
+    id: ARROW
+    buy-price: 20.0
+    sell-price: 3.0
+  '19':
+    type: SHOP
+    id: ROTTEN_FLESH
+    buy-price: 10.0
+    sell-price: 3.0
+  '20':
+    type: SHOP
+    id: GUNPOWDER
+    buy-price: 100.0
+    sell-price: 5.0
+  '21':
+    type: SHOP
+    id: BLAZE_ROD
+    buy-price: 100.0
+    sell-price: 10.0
+  '22':
+    type: SHOP
+    id: SPIDER_EYE
+    buy-price: 10.0
+    sell-price: 2.0
+  '23':
+    type: SHOP
+    id: STRING
+    buy-price: 100.0
+    sell-price: 3.0
+  '24':
+    type: SHOP
+    id: ENDER_PEARL
+    buy-price: 100.0
+    sell-price: 3.0
+  '25':
+    type: SHOP
+    id: SLIME_BALL
+    buy-price: 100.0
+    sell-price: 5.0
+  '26':
+    type: SHOP
+    id: LEATHER
+    buy-price: 100.0
+    sell-price: 3.0
+  '27':
+    type: SHOP
+    id: FEATHER
+    buy-price: 100.0
+    sell-price: 3.0
+  '28':
+    type: SHOP
+    id: EGG
+    buy-price: 100.0
+    sell-price: 3.0
+  '29':
+    type: SHOP
+    id: STICK
+    buy-price: 100.0
+    sell-price: 2.0
+  '30':
+    type: SHOP
+    id: INK_SAC
+    buy-price: 100.0
+    sell-price: 3.0
+  '31':
+    type: SHOP
+    id: GOLD_NUGGET
+    buy-price: 100.0
+  '32':
+    type: SHOP
+    id: GHAST_TEAR
+    buy-price: 100.0
+    sell-price: 20.0
+  '33':
+    type: SHOP
+    id: PUMPKIN
+    buy-price: 20.0
+    sell-price: 3.0
+  '34':
+    type: SHOP
+    id: MELON
+    buy-price: 30.0
+    sell-price: 3.0
+Brewing:
+  '0':
+    type: SHOP
+    id: GHAST_TEAR
+    buy-price: 100.0
+    sell-price: 20.0
+  '1':
+    type: SHOP
+    id: SPIDER_EYE
+    buy-price: 10.0
+    sell-price: 2.0
+  '2':
+    type: SHOP
+    id: FERMENTED_SPIDER_EYE
+    buy-price: 100.0
+  '3':
+    type: SHOP
+    id: GOLDEN_CARROT
+    buy-price: 25.0
+  '5':
+    type: SHOP
+    id: BLAZE_ROD
+    buy-price: 7.0
+    sell-price: 2.0
+  '6':
+    type: SHOP
+    id: NETHER_WART
+    buy-price: 12.0
+    sell-price: 3.0
+  '7':
+    type: SHOP
+    id: MAGMA_CREAM
+    buy-price: 20.0
+    sell-price: 10.0
+  '8':
+    type: SHOP
+    id: BREWING_STAND
+    buy-price: 100.0
+Gear:
+  '0':
+    type: SHOP
+    id: DIAMOND_HELMET
+    buy-price: 1500.0
+  '1':
+    type: SHOP
+    id: DIAMOND_CHESTPLATE
+    buy-price: 3500.0
+  '2':
+    type: SHOP
+    id: DIAMOND_LEGGINGS
+    buy-price: 3000.0
+  '3':
+    type: SHOP
+    id: DIAMOND_BOOTS
+    buy-price: 1500.0
+  '4':
+    type: SHOP
+    id: DIAMOND_SWORD
+    buy-price: 500.0
+  '5':
+    type: SHOP
+    id: DIAMOND_AXE
+    buy-price: 1200.0
+  '6':
+    type: SHOP
+    id: DIAMOND_PICKAXE
+    buy-price: 1200.0
+  '7':
+    type: SHOP
+    id: DIAMOND_SHOVEL
+    buy-price: 200.0
+  '8':
+    type: SHOP
+    id: DIAMOND_HOE
+    buy-price: 400.0
+  '9':
+    type: SHOP
+    id: IRON_HELMET
+    buy-price: 75.0
+  '10':
+    type: SHOP
+    id: IRON_CHESTPLATE
+    buy-price: 120.0
+  '11':
+    type: SHOP
+    id: IRON_LEGGINGS
+    buy-price: 105.0
+  '12':
+    type: SHOP
+    id: IRON_BOOTS
+    buy-price: 60.0
+  '13':
+    type: SHOP
+    id: IRON_SWORD
+    buy-price: 30.0
+  '14':
+    type: SHOP
+    id: IRON_AXE
+    buy-price: 45.0
+  '15':
+    type: SHOP
+    id: IRON_PICKAXE
+    buy-price: 45.0
+  '16':
+    type: SHOP
+    id: IRON_SHOVEL
+    buy-price: 15.0
+  '17':
+    type: SHOP
+    id: IRON_HOE
+    buy-price: 30.0
+  '18':
+    type: SHOP
+    id: BOW
+    buy-price: 50.0
+  '19':
+    type: SHOP
+    id: FISHING_ROD
+    buy-price: 50.0
+  '20':
+    type: SHOP
+    id: SHEARS
+    buy-price: 30.0
+  '21':
+    type: SHOP
+    id: NAME_TAG
+    buy-price: 100.0
+  '22':
+    type: SHOP
+    id: LEAD
+    buy-price: 100.0
+  '23':
+    type: SHOP
+    id: DIAMOND_HORSE_ARMOR
+    buy-price: 300.0
+    sell-price: 100.0
+  '24':
+    type: SHOP
+    id: GOLDEN_HORSE_ARMOR
+    buy-price: 200.0
+    sell-price: 75.0
+  '25':
+    type: SHOP
+    id: IRON_HORSE_ARMOR
+    buy-price: 100.0
+    sell-price: 50.0
+  '26':
+    type: SHOP
+    id: SADDLE
+    buy-price: 75.0
+    sell-price: 30.0
+Spawners:
+  '0':
+    type: SHOP
+    id: SPAWNER
+    sell-price: 100000.0
+    shop-name: Creeper Spawner
+    mobType: 'CREEPER'
+  '1':
+    type: SHOP
+    id: SPAWNER
+    buy-price: 150000.0
+    sell-price: 100000.0
+    shop-name: Skeleton Spawner
+    mobType: 'SKELETON'
+  '2':
+    type: SHOP
+    id: SPAWNER
+    buy-price: 140000.0
+    sell-price: 100000.0
+    shop-name: Spider Spawner
+    mobType: 'SPIDER'
+  '3':
+    type: SHOP
+    id: SPAWNER
+    buy-price: 125000.0
+    sell-price: 100000.0
+    shop-name: Cave Spider Spawner
+    mobType: 'CAVE_SPIDER'
+  '4':
+    type: SHOP
+    id: SPAWNER
+    buy-price: 150000.0
+    sell-price: 100000.0
+    shop-name: Zombie Spawner
+    mobType: 'ZOMBIE'
+  '4':
+    type: SHOP
+    id: SPAWNER
+    buy-price: 150000.0
+    sell-price: 100000.0
+    shop-name: Blaze Spawner
+    mobType: 'BLAZE'
+Blocks:
+  '0':
+    type: SHOP
+    id: STONE_BRICKS
+    buy-price: 50.0
+  '1':
+    type: SHOP
+    id: MOSSY_STONE_BRICKS
+    buy-price: 60.0
+  '2':
+    type: SHOP
+    id: CRACKED_STONE_BRICKS
+    buy-price: 60.0
+  '3':
+    type: SHOP
+    id: CHISELED_STONE_BRICKS
+    buy-price: 60.0
+  '4':
+    type: SHOP
+    id: STONE
+    buy-price: 20.0
+  '5':
+    type: SHOP
+    id: COBBLESTONE
+    buy-price: 10.0
+  '6':
+    type: SHOP
+    id: MOSSY_COBBLESTONE
+    buy-price: 50.0
+  '7':
+    type: SHOP
+    id: MYCELIUM
+    buy-price: 150.0
+  '8':
+    type: SHOP
+    id: GRASS
+    buy-price: 15.0
+  '9':
+    type: SHOP
+    id: DIRT
+    buy-price: 10.0
+  '10':
+    type: SHOP
+    id: OAK_LOG
+    buy-price: 20.0
+    sell-price: 3.0
+  '11':
+    type: SHOP
+    id: SPRUCE_LOG
+    buy-price: 20.0
+    sell-price: 3.0
+  '12':
+    type: SHOP
+    id: BIRCH_LOG
+    buy-price: 20.0
+    sell-price: 3.0
+  '13':
+    type: SHOP
+    id: JUNGLE_LOG
+    buy-price: 20.0
+    sell-price: 3.0
+  '14':
+    type: SHOP
+    id: ACACIA_LOG
+    buy-price: 20.0
+    sell-price: 3.0
+  '15':
+    type: SHOP
+    id: DARK_OAK_LOG
+    buy-price: 20.0
+    sell-price: 3.0
+  '16':
+    type: SHOP
+    id: SPONGE
+    buy-price: 260.0
+    sell-price: 50.0
+  '17':
+    type: SHOP
+    id: BRICKS
+    buy-price: 20.0
+  '18':
+    type: SHOP
+    id: BIRCH_WOOD
+    buy-price: 20.0
+  '19':
+    type: SHOP
+    id: JUNGLE_WOOD
+    buy-price: 20.0
+  '20':
+    type: SHOP
+    id: ACACIA_WOOD
+    buy-price: 20.0
+  '21':
+    type: SHOP
+    id: DARK_OAK_WOOD
+    buy-price: 20.0
+  '22':
+    type: SHOP
+    id: WHITE_WOOL
+    buy-price: 30.0
+    sell-price: 10.0
+  '23':
+    type: SHOP
+    id: CLAY
+    buy-price: 10.0
+    sell-price: 2.0
+  '24':
+    type: SHOP
+    id: LIGHT_BLUE_TERRACOTTA
+    buy-price: 100.0
+  '25':
+    type: SHOP
+    id: OBSIDIAN
+    buy-price: 300.0
+  '26':
+    type: SHOP
+    id: SANDSTONE
+    buy-price: 30.0
+    sell-price: 5.0
+  '27':
+    type: SHOP
+    id: SAND
+    buy-price: 10.0
+  '28':
+    type: SHOP
+    id: RED_SAND
+    buy-price: 20.0
+  '29':
+    type: SHOP
+    id: GLASS
+    buy-price: 80.0
+    sell-price: 6.0
+  '30':
+    type: SHOP
+    id: GRAVEL
+    buy-price: 20.0
+    sell-price: 1.0
+  '31':
+    type: SHOP
+    id: QUARTZ_BLOCK
+    buy-price: 50.0
+    sell-price: 10.0
+  '32':
+    type: SHOP
+    id: CHISELED_QUARTZ_BLOCK
+    buy-price: 60.0
+  '33':
+    type: SHOP
+    id: QUARTZ_PILLAR
+    buy-price: 60.0
+  '34':
+    type: SHOP
+    id: NETHER_BRICK
+    buy-price: 50.0
+    sell-price: 5.0
+  '35':
+    type: SHOP
+    id: NETHERRACK
+    buy-price: 20.0
+    sell-price: 2.0
+  '36':
+    type: SHOP
+    id: SOUL_SAND
+    buy-price: 20.0
+    sell-price: 2.0
+  '37':
+    type: SHOP
+    id: GLOWSTONE
+    buy-price: 50.0
+    sell-price: 5.0
+  '38':
+    type: SHOP
+    id: ENCHANTING_TABLE
+    buy-price: 100.0
+  '39':
+    type: SHOP
+    id: BOOKSHELF
+    buy-price: 50.0
+  '40':
+    type: SHOP
+    id: SNOW_BLOCK
+    buy-price: 20.0
+  '41':
+    type: SHOP
+    id: ICE
+    buy-price: 50.0
+  '42':
+    type: SHOP
+    id: PACKED_ICE
+    buy-price: 50.0
+  '43':
+    type: SHOP
+    id: END_STONE
+    buy-price: 100.0
+  '44':
+    type: SHOP
+    id: BEACON
+    buy-price: 100000.0
+  '45':
+    type: SHOP
+    id: WHITE_WOOL
+    buy-price: 30.0
+    sell-price: 5.0
+  '46':
+    type: SHOP
+    id: ORANGE_WOOL
+    buy-price: 50.0
+  '47':
+    type: SHOP
+    id: MAGENTA_WOOL
+    buy-price: 50.0
+  '48':
+    type: SHOP
+    id: LIGHT_BLUE_WOOL
+    buy-price: 50.0
+  '49':
+    type: SHOP
+    id: YELLOW_WOOL
+    buy-price: 50.0
+  '50':
+    type: SHOP
+    id: LIME_WOOL
+    buy-price: 50.0
+  '51':
+    type: SHOP
+    id: PINK_WOOL
+    buy-price: 50.0
+  '52':
+    type: SHOP
+    id: GRAY_WOOL
+    buy-price: 50.0
+  '53':
+    type: SHOP
+    id: LIGHT_GRAY_WOOL
+    buy-price: 50.0
+  '54':
+    type: SHOP
+    id: CYAN_WOOL
+    buy-price: 50.0
+  '55':
+    type: SHOP
+    id: PURPLE_WOOL
+    buy-price: 50.0
+  '56':
+    type: SHOP
+    id: BLUE_WOOL
+    buy-price: 50.0
+  '57':
+    type: SHOP
+    id: BROWN_WOOL
+    buy-price: 50.0
+  '58':
+    type: SHOP
+    id: GREEN_WOOL
+    buy-price: 50.0
+  '59':
+    type: SHOP
+    id: RED_WOOL
+    buy-price: 50.0
+  '60':
+    type: SHOP
+    id: WHITE_STAINED_GLASS
+    buy-price: 60.0
+  '61':
+    type: SHOP
+    id: ORANGE_STAINED_GLASS
+    buy-price: 60.0
+  '62':
+    type: SHOP
+    id: MAGENTA_STAINED_GLASS
+    buy-price: 60.0
+  '63':
+    type: SHOP
+    id: LIGHT_BLUE_STAINED_GLASS
+    buy-price: 60.0
+  '64':
+    type: SHOP
+    id: YELLOW_STAINED_GLASS
+    buy-price: 60.0
+  '65':
+    type: SHOP
+    id: LIME_STAINED_GLASS
+    buy-price: 60.0
+  '66':
+    type: SHOP
+    id: PINK_STAINED_GLASS
+    buy-price: 60.0
+  '67':
+    type: SHOP
+    id: GRAY_STAINED_GLASS
+    buy-price: 60.0
+  '68':
+    type: SHOP
+    id: LIGHT_GRAY_STAINED_GLASS
+    buy-price: 60.0
+  '69':
+    type: SHOP
+    id: CYAN_STAINED_GLASS
+    buy-price: 60.0
+  '70':
+    type: SHOP
+    id: PURPLE_STAINED_GLASS
+    buy-price: 60.0
+  '71':
+    type: SHOP
+    id: BLACKSTONE
+    buy-price: 20.0
+    sell-price: 3.0
+  '72':
+    type: SHOP
+    id: BASALT
+    buy-price: 20.0
+    sell-price: 3.0
