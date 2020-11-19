@@ -1,0 +1,31 @@
+# Paths file - This file will contain all paths that a player is allowed to take. Previously known as 'AdvancedConfig.yml'.
+# This file contains (by default) a Test group that shows the basic syntax of this file. 
+# For more information, go to https://github.com/Armarr/Autorank-2/wiki/How-to-configure-the-Paths.yml-file%3F.
+Citizen:
+  prerequisites:
+    in group:
+      value: Tourist
+  requirements:
+    time:
+      value: 2h
+  results:
+    money:
+      value: 1000
+    command:
+      value: manpromote &p <trackname>
+    message:
+      value: Congratulations, you have been promoted to Citizen!
+CitizenPlus:
+  prerequisites:
+    in group:
+      value: Citizen
+  requirements:
+    time:
+      value: 30d
+  results:
+    money:
+      value: 100000
+    command:
+      value: manpromote &p <trackname>
+    message:
+      value: Congratulations, you have been promoted to CitizenPlus!
