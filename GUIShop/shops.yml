@@ -334,6 +334,10 @@ FarmingDrops:
     id: MELON
     buy-price: 30.0
     sell-price: 3.0
+  '35':
+    type: SHOP
+    id: SHULKER_SHELL
+    buy-price: 2000.0
 Brewing:
   '0':
     type: SHOP
