@@ -369,7 +369,7 @@ FarmingDrops:
     type: SHOP
     id: GOLD_NUGGET
     buy-price: 7.0
-    sell-price: 1.0
+    sell-price: 0.5
   '32':
     type: SHOP
     id: GHAST_TEAR
