@@ -619,7 +619,7 @@ Spawners:
     sell-price: 100000.0
     shop-name: Zombie Spawner
     mobType: 'ZOMBIE'
-  '4':
+  '5':
     type: SHOP
     id: SPAWNER
     buy-price: 150000.0
@@ -1015,7 +1015,6 @@ Blocks:
   '94':
     type: SHOP
     id: RED_NETHER_BRICK
-    buy-price: 90.0
     buy-price: 50.0
   '95':
     type: SHOP
