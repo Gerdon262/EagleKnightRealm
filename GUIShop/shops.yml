@@ -395,17 +395,17 @@ FarmingDrops:
     buy-price: 250.0
   '37':
     type: SHOP
-    id: RAW_FISH
+    id: COD
     buy-price: 30.0
     sell-price: 1.0
   '38':
     type: SHOP
-    id: RAW_SALMON
+    id: SALMON
     buy-price: 30.0
     sell-price: 1.0
   '39':
     type: SHOP
-    id: CLOWNFISH
+    id: TROPICAL_FISH
     buy-price: 30.0
     sell-price: 1.0
   '40':
