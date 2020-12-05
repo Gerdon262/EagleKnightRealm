@@ -152,7 +152,7 @@ Raiding:
     buy-price: 100
   '24':
     type: SHOP
-    id: DAYLIGHT_SENSOR
+    id: DAYLIGHT_DETECTOR
     buy-price: 100.0
   '25':
     type: SHOP
