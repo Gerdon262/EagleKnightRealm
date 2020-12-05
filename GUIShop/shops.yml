@@ -828,11 +828,11 @@ Blocks:
     type: SHOP
     id: ORANGE_WOOL
     buy-price: 60.0
-  '48":
+  '48':
     type: SHOP
     id: MEGENTA_WOOL
     buy-price: 60.0
-  '49":
+  '49':
     type: SHOP
     id: LIGHT_BLUE_WOOL
     buy-price: 60.0
