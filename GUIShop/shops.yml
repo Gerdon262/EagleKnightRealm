@@ -413,11 +413,11 @@ FarmingDrops:
     id: PUFFERFISH
     buy-price: 30.0
     sell-price: 1.0
- '41':
+  '41':
     type: SHOP
     id: TWISTING_VINES
     buy-price: 10.0
- '42':
+  '42':
     type: SHOP
     id: WEEPING_VINES
     buy-price: 10.0
