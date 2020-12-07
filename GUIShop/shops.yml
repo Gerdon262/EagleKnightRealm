@@ -696,7 +696,7 @@ MobDrops:
     id: RABBIT_HIDE
     buy-price: 100.0
     sell-price: 3.0
-DecorationBlock:
+DecorationBlocks:
   '0':
     type: SHOP
     id: OAK_SAPLING
