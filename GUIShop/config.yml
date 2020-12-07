@@ -312,12 +312,12 @@ menu-items:
     Item: 'GUNPOWDER'
     Desc: ''
     Name: '&fMob drops'
-  Gear:
+  GearTools:
     Type: 'SHOP'
     Enabled: true
     Item: 'NETHERITE_SWORD'
     Desc: ''
-    Name: '&fGear'
+    Name: '&fGear & Tools'
   Pane13:
     Type: 'DUMMY'
     Item: 'LIGHT_GRAY_STAINED_GLASS_PANE'

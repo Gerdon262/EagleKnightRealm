@@ -409,131 +409,6 @@ Transportation:
 Precious:
   '0':
     type: SHOP
-    id: DIAMOND_HELMET
-    buy-price: 2000.0
-  '1':
-    type: SHOP
-    id: DIAMOND_CHESTPLATE
-    buy-price: 3200.0
-  '2':
-    type: SHOP
-    id: DIAMOND_LEGGINGS
-    buy-price: 2800.0
-  '3':
-    type: SHOP
-    id: DIAMOND_BOOTS
-    buy-price: 1600.0
-  '4':
-    type: SHOP
-    id: DIAMOND_SWORD
-    buy-price: 850.0
-  '5':
-    type: SHOP
-    id: DIAMOND_AXE
-    buy-price: 1250.0
-  '6':
-    type: SHOP
-    id: DIAMOND_PICKAXE
-    buy-price: 1250.0
-  '7':
-    type: SHOP
-    id: DIAMOND_SHOVEL
-    buy-price: 450.0
-  '8':
-    type: SHOP
-    id: DIAMOND_HOE
-    buy-price: 850.0
-  '9':
-    type: SHOP
-    id: IRON_HELMET
-    buy-price: 75.0
-  '10':
-    type: SHOP
-    id: IRON_CHESTPLATE
-    buy-price: 120.0
-  '11':
-    type: SHOP
-    id: IRON_LEGGINGS
-    buy-price: 105.0
-  '12':
-    type: SHOP
-    id: IRON_BOOTS
-    buy-price: 60.0
-  '13':
-    type: SHOP
-    id: IRON_SWORD
-    buy-price: 35.0
-  '14':
-    type: SHOP
-    id: IRON_AXE
-    buy-price: 50.0
-  '15':
-    type: SHOP
-    id: IRON_PICKAXE
-    buy-price: 50.0
-  '16':
-    type: SHOP
-    id: IRON_SHOVEL
-    buy-price: 20.0
-  '17':
-    type: SHOP
-    id: IRON_HOE
-    buy-price: 35.0
-  '18':
-    type: SHOP
-    id: BOW
-    buy-price: 100.0
-  '19':
-    type: SHOP
-    id: SHIELD
-    buy-price: 50.0
-  '20':
-    type: SHOP
-    id: TEIDENT
-    buy-price: 5000.0
-  '21':
-    type: SHOP
-    id: CROSSBOW
-    buy-price: 100.0
-  '22':
-    type: SHOP
-    id: COMPASS
-    buy-price: 100.0
-  '23':
-    type: SHOP
-    id: FISHING_ROD
-    buy-price: 100.0
-  '24':
-    type: SHOP
-    id: LEAD
-    buy-price: 150.0
-  '25':
-    type: SHOP
-    id: NAME_TAG
-    buy-price: 100.0
-  '26':
-    type: SHOP
-    id: CLOCK
-    buy-price: 100.0
-  '27':
-    type: SHOP
-    id: SHEARS
-    buy-price: 45.0
-  '28':
-    type: SHOP
-    id: FLINT_AND_STEEL
-    buy-price: 45.0
-  '29':
-    type: SHOP
-    id: IRON_HORSE_ARMOR
-    buy-price: 150.0
-  '30':
-    type: SHOP
-    id: DIAMOND_HORSE_ARMOR
-    buy-price: 300.0
-MobDrops:
-  '0':
-    type: SHOP
     id: EMERALD
     buy-price: 200.0
     sell-price: 80.0
@@ -549,7 +424,7 @@ MobDrops:
     sell-price: 10.0
   '3':
     type: SHOP
-    id: GOLDEN_NUGGET
+    id: GOLD_NUGGET
     buy-price: 8.0
     sell-price: 0.5
   '4':
@@ -587,7 +462,7 @@ MobDrops:
     id: QUARTZ
     buy-price: 15.0
     sell-price: 3.0
-Gear:
+MobDrops:
   '0':
     type: SHOP
     id: BONE
@@ -676,6 +551,131 @@ Gear:
     id: RABBIT_HIDE
     buy-price: 100.0
     sell-price: 3.0
+GearTools:
+  '0':
+    type: SHOP
+    id: DIAMOND_HELMET
+    buy-price: 2000.0
+  '1':
+    type: SHOP
+    id: DIAMOND_CHESTPLATE
+    buy-price: 3200.0
+  '2':
+    type: SHOP
+    id: DIAMOND_LEGGINGS
+    buy-price: 2800.0
+  '3':
+    type: SHOP
+    id: DIAMOND_BOOTS
+    buy-price: 1600.0
+  '4':
+    type: SHOP
+    id: DIAMOND_SWORD
+    buy-price: 850.0
+  '5':
+    type: SHOP
+    id: DIAMOND_AXE
+    buy-price: 1250.0
+  '6':
+    type: SHOP
+    id: DIAMOND_PICKAXE
+    buy-price: 1250.0
+  '7':
+    type: SHOP
+    id: DIAMOND_SHOVEL
+    buy-price: 450.0
+  '8':
+    type: SHOP
+    id: DIAMOND_HOE
+    buy-price: 850.0
+  '9':
+    type: SHOP
+    id: IRON_HELMET
+    buy-price: 75.0
+  '10':
+    type: SHOP
+    id: IRON_CHESTPLATE
+    buy-price: 120.0
+  '11':
+    type: SHOP
+    id: IRON_LEGGINGS
+    buy-price: 105.0
+  '12':
+    type: SHOP
+    id: IRON_BOOTS
+    buy-price: 60.0
+  '13':
+    type: SHOP
+    id: IRON_SWORD
+    buy-price: 35.0
+  '14':
+    type: SHOP
+    id: IRON_AXE
+    buy-price: 50.0
+  '15':
+    type: SHOP
+    id: IRON_PICKAXE
+    buy-price: 50.0
+  '16':
+    type: SHOP
+    id: IRON_SHOVEL
+    buy-price: 20.0
+  '17':
+    type: SHOP
+    id: IRON_HOE
+    buy-price: 35.0
+  '18':
+    type: SHOP
+    id: BOW
+    buy-price: 100.0
+  '19':
+    type: SHOP
+    id: SHIELD
+    buy-price: 50.0
+  '20':
+    type: SHOP
+    id: TRIDENT
+    buy-price: 5000.0
+  '21':
+    type: SHOP
+    id: CROSSBOW
+    buy-price: 100.0
+  '22':
+    type: SHOP
+    id: COMPASS
+    buy-price: 100.0
+  '23':
+    type: SHOP
+    id: FISHING_ROD
+    buy-price: 100.0
+  '24':
+    type: SHOP
+    id: LEAD
+    buy-price: 150.0
+  '25':
+    type: SHOP
+    id: NAME_TAG
+    buy-price: 100.0
+  '26':
+    type: SHOP
+    id: CLOCK
+    buy-price: 100.0
+  '27':
+    type: SHOP
+    id: SHEARS
+    buy-price: 45.0
+  '28':
+    type: SHOP
+    id: FLINT_AND_STEEL
+    buy-price: 45.0
+  '29':
+    type: SHOP
+    id: IRON_HORSE_ARMOR
+    buy-price: 150.0
+  '30':
+    type: SHOP
+    id: DIAMOND_HORSE_ARMOR
+    buy-price: 300.0
 DecorationBlocks:
   '0':
     type: SHOP
@@ -1321,4 +1321,3 @@ Miscellaneous:
     id: HEART_OF_THE_SEA
     buy-price: 500.0
     sell-price: 100.0
-
