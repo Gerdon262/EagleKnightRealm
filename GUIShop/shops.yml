@@ -1246,7 +1246,7 @@ BuildingBlocks:
 Miscellaneous:
   '0':
     type: SHOP
-    id: WHEAT_SEED
+    id: WHEAT_SEEDS
     buy-price: 2.0
     sell-price: 0.1
   '1':
@@ -1282,12 +1282,12 @@ Miscellaneous:
     buy-price: 10.0
   '8':
     type: SHOP
-    id: PUMPKIN_SEED
+    id: PUMPKIN_SEEDS
     buy-price: 2.0
     sell-price: 0.2
   '9':
     type: SHOP
-    id: MELON_SEED
+    id: MELON_SEEDS
     buy-price: 2.0
     sell-price: 0.2
   '10':
@@ -1296,11 +1296,11 @@ Miscellaneous:
     buy-price: 50.0
   '11':
     type: SHOP
-    id: BOOK_AND_QUILL
+    id: WRITABLE_BOOK
     buy-price: 50.0
   '12':
     type: SHOP
-    id: EMPTY_MAP
+    id: MAP
     buy-price: 50.0
   '13':
     type: SHOP
@@ -1308,7 +1308,7 @@ Miscellaneous:
     buy-price: 100.0
   '14':
     type: SHOP
-    id: BEETROOT_SEED
+    id: BEETROOT_SEEDS
     buy-price: 2.0
     sell-price: 0.1
   '15':
