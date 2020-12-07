@@ -35,18 +35,6 @@
 # #########################################################################
 
 Redstone:
-  #  '0':
-  #    type: COMMAND
-  #    id: COMPARATOR
-  #    buy-price: 200.0
-  #    sell-price: 100.0
-  #    shop-lore:
-  #    - '&aLine 1'
-  #    - '&bLine 2'
-  #    shop-name: '&4Heal Command Test'
-  #    commands:
-  #    - heal {PLAYER_NAME}
-  #    - broadcast {PLAYER_NAME} purchased {ITEM_SHOP_NAME}&a for {BUY_PRICE}.
   '0':
     type: SHOP
     id: DISPENSER
@@ -107,11 +95,11 @@ Redstone:
     buy-price: 5.0
   '14':
     type: SHOP
-    id: REDSTONE_REPEATER
+    id: REPEATER
     buy-price: 20.0
   '15':
     type: SHOP
-    id: REDSTONE_COMOARATOR
+    id: COMPARATOR
     buy-price: 20.0
   '16':
     type: SHOP
@@ -429,62 +417,6 @@ Transportation:
 Precious:
   '0':
     type: SHOP
-    id: EMERALD
-    buy-price: 200.0
-    sell-price: 80.0
-  '1':
-    type: SHOP
-    id: DIAMOND
-    buy-price: 400.0
-    sell-price: 100.0
-  '2':
-    type: SHOP
-    id: GOLD_INGOT
-    buy-price: 70.0
-    sell-price: 10.0
-  '3':
-    type: SHOP
-    id: GOLDEN_NUGGET
-    buy-price: 8.0
-    sell-price: 0.5
-  '4':
-    type: SHOP
-    id: IRON_INGOT
-    buy-price: 15.0
-    sell-price: 7.0
-  '5':
-    type: SHOP
-    id: IRON_NUGGET
-    buy-price: 2.0
-    sell-price: 0.35
-  '6':
-    type: SHOP
-    id: COAL
-    buy-price: 15.0
-    sell-price: 5.0
-  '7':
-    type: SHOP
-    id: CHARCOAL
-    buy-price: 15.0
-    sell-price: 5.0
-  '8':
-    type: SHOP
-    id: REDSTONE
-    buy-price: 15.0
-    sell-price: 5.0
-  '9':
-    type: SHOP
-    id: LAPIS_LAZULI
-    buy-price: 5.0
-    sell-price: 1.0
-  '10':
-    type: SHOP
-    id: QUARTZ
-    buy-price: 15.0
-    sell-price: 3.0
-Gear:
-  '0':
-    type: SHOP
     id: DIAMOND_HELMET
     buy-price: 2000.0
   '1':
@@ -608,6 +540,62 @@ Gear:
     id: DIAMOND_HORSE_ARMOR
     buy-price: 300.0
 MobDrops:
+  '0':
+    type: SHOP
+    id: EMERALD
+    buy-price: 200.0
+    sell-price: 80.0
+  '1':
+    type: SHOP
+    id: DIAMOND
+    buy-price: 400.0
+    sell-price: 100.0
+  '2':
+    type: SHOP
+    id: GOLD_INGOT
+    buy-price: 70.0
+    sell-price: 10.0
+  '3':
+    type: SHOP
+    id: GOLDEN_NUGGET
+    buy-price: 8.0
+    sell-price: 0.5
+  '4':
+    type: SHOP
+    id: IRON_INGOT
+    buy-price: 15.0
+    sell-price: 7.0
+  '5':
+    type: SHOP
+    id: IRON_NUGGET
+    buy-price: 2.0
+    sell-price: 0.35
+  '6':
+    type: SHOP
+    id: COAL
+    buy-price: 15.0
+    sell-price: 5.0
+  '7':
+    type: SHOP
+    id: CHARCOAL
+    buy-price: 15.0
+    sell-price: 5.0
+  '8':
+    type: SHOP
+    id: REDSTONE
+    buy-price: 15.0
+    sell-price: 5.0
+  '9':
+    type: SHOP
+    id: LAPIS_LAZULI
+    buy-price: 5.0
+    sell-price: 1.0
+  '10':
+    type: SHOP
+    id: QUARTZ
+    buy-price: 15.0
+    sell-price: 3.0
+Gear:
   '0':
     type: SHOP
     id: BONE
