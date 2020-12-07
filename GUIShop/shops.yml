@@ -34,7 +34,6 @@
 # commands ~ Required only if type is COMMAND ~ List of commands to run.  #
 # #########################################################################
 
-
 Redstone:
   #  '0':
   #    type: COMMAND
@@ -246,7 +245,7 @@ Brewing:
     id: NETHER_WART
     buy-price: 10.0
     sell-price: 1.0
-FOOD:
+Food:
   '0':
     type: SHOP
     id: APPLE
@@ -357,7 +356,7 @@ FOOD:
     sell-price: 1.0
   '24':
     type: SHOP
-    id: COOKED_CHICKEN 
+    id: COOKED_CHICKEN
     buy-price: 25.0
   '25':
     type: SHOP
@@ -427,7 +426,7 @@ Transportation:
     type: SHOP
     id: WARPED_FUNGUS_ON_A_STICK
     buy-price: 20.0
-Ores:
+Precious:
   '0':
     type: SHOP
     id: EMERALD
@@ -482,95 +481,6 @@ Ores:
     type: SHOP
     id: QUARTZ
     buy-price: 15.0
-    sell-price: 3.0
-MobDrops:
-  '0':
-    type: SHOP
-    id: BONE
-    buy-price: 10.0
-    sell-price: 1.0
-  '1':
-    type: SHOP
-    id: ARROW
-    buy-price: 20.0
-    sell-price: 1.0
-  '2':
-    type: SHOP
-    id: ROTTEN_FLESH
-    buy-price: 10.0
-    sell-price: 1.0
-  '3':
-    type: SHOP
-    id: GUNPOWDER
-    buy-price: 100.0
-    sell-price: 5.0
-  '4':
-    type: SHOP
-    id: BLAZE_ROD
-    buy-price: 100.0
-    sell-price: 10.0
-  '5':
-    type: SHOP
-    id: SPIDER_EYE
-    buy-price: 50.0
-    sell-price: 2.0
-  '6':
-    type: SHOP
-    id: STRING
-    buy-price: 100.0
-    sell-price: 2.0
-  '7':
-    type: SHOP
-    id: ENDER_PEARL
-    buy-price: 100.0
-    sell-price: 5.0
-  '8':
-    type: SHOP
-    id: SLIME_BALL
-    buy-price: 100.0
-    sell-price: 5.0
-  '9':
-    type: SHOP
-    id: LEATHER
-    buy-price: 100.0
-    sell-price: 3.0
-  '10':
-    type: SHOP
-    id: FEATHER
-    buy-price: 80.0
-    sell-price: 3.0
-  '11':
-    type: SHOP
-    id: EGG
-    buy-price: 50.0
-    sell-price: 3.0
-  '12':
-    type: SHOP
-    id: INK_SAC
-    buy-price: 100.0
-    sell-price: 3.0
-  '13':
-    type: SHOP
-    id: GHAST_TEAR
-    buy-price: 100.0
-    sell-price: 10.0
-  '14':
-    type: SHOP
-    id: SHULKER_SHELL
-    buy-price: 1500.0
-  '15':
-    type: SHOP
-    id: MAGMA_CREAM
-    buy-price: 50.0
-    sell-price: 3.0
-  '16':
-    type: SHOP
-    id: TURTLE_EGG
-    buy-price: 80.0
-  '17':
-    type: SHOP
-    id: RABBIT_HIDE
-    buy-price: 100.0
     sell-price: 3.0
 Gear:
   '0':
@@ -697,7 +607,96 @@ Gear:
     type: SHOP
     id: DIAMOND_HORSE_ARMOR
     buy-price: 300.0
-Decoration Block:
+MobDrops:
+  '0':
+    type: SHOP
+    id: BONE
+    buy-price: 10.0
+    sell-price: 1.0
+  '1':
+    type: SHOP
+    id: ARROW
+    buy-price: 20.0
+    sell-price: 1.0
+  '2':
+    type: SHOP
+    id: ROTTEN_FLESH
+    buy-price: 10.0
+    sell-price: 1.0
+  '3':
+    type: SHOP
+    id: GUNPOWDER
+    buy-price: 100.0
+    sell-price: 5.0
+  '4':
+    type: SHOP
+    id: BLAZE_ROD
+    buy-price: 100.0
+    sell-price: 10.0
+  '5':
+    type: SHOP
+    id: SPIDER_EYE
+    buy-price: 50.0
+    sell-price: 2.0
+  '6':
+    type: SHOP
+    id: STRING
+    buy-price: 100.0
+    sell-price: 2.0
+  '7':
+    type: SHOP
+    id: ENDER_PEARL
+    buy-price: 100.0
+    sell-price: 5.0
+  '8':
+    type: SHOP
+    id: SLIME_BALL
+    buy-price: 100.0
+    sell-price: 5.0
+  '9':
+    type: SHOP
+    id: LEATHER
+    buy-price: 100.0
+    sell-price: 3.0
+  '10':
+    type: SHOP
+    id: FEATHER
+    buy-price: 80.0
+    sell-price: 3.0
+  '11':
+    type: SHOP
+    id: EGG
+    buy-price: 50.0
+    sell-price: 3.0
+  '12':
+    type: SHOP
+    id: INK_SAC
+    buy-price: 100.0
+    sell-price: 3.0
+  '13':
+    type: SHOP
+    id: GHAST_TEAR
+    buy-price: 100.0
+    sell-price: 10.0
+  '14':
+    type: SHOP
+    id: SHULKER_SHELL
+    buy-price: 1500.0
+  '15':
+    type: SHOP
+    id: MAGMA_CREAM
+    buy-price: 50.0
+    sell-price: 3.0
+  '16':
+    type: SHOP
+    id: TURTLE_EGG
+    buy-price: 80.0
+  '17':
+    type: SHOP
+    id: RABBIT_HIDE
+    buy-price: 100.0
+    sell-price: 3.0
+DecorationBlock:
   '0':
     type: SHOP
     id: OAK_SAPLING
@@ -1015,7 +1014,7 @@ Decoration Block:
     type: SHOP
     id: HONEYCOMB_BLOCK
     buy-price: 200.0
-BuildingBlock:
+BuildingBlocks:
   '0':
     type: SHOP
     id: STONE
@@ -1342,4 +1341,4 @@ Miscellaneous:
     id: HEART_OF_THE_SEA
     buy-price: 500.0
     sell-price: 100.0
-    
+
