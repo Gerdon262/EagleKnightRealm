@@ -249,7 +249,7 @@ Food:
     buy-price: 5.0
   '4':
     type: SHOP
-    id: RAW_PORCHOP
+    id: PORKCHOP
     buy-price: 10.0
     sell-price: 1.0
   '5':
@@ -258,7 +258,7 @@ Food:
     buy-price: 25.0
   '6':
     type: SHOP
-    id: RAW_COD
+    id: COD
     buy-price: 10.0
     sell_price: 1.0
   '7':
@@ -267,7 +267,7 @@ Food:
     buy-price: 25.0
   '8':
     type: SHOP
-    id: RAW_SALMON
+    id: SALMON
     buy-price: 10.0
     sell-price: 1.0
   '9':
@@ -290,7 +290,7 @@ Food:
     buy-price: 25.0
   '13':
     type: SHOP
-    id: COOKIES
+    id: COOKIE
     buy-price: 25.0
   '14':
     type: SHOP
@@ -309,71 +309,67 @@ Food:
     sell-price: 2.0
   '17':
     type: SHOP
-    id: POISONOUS_POTATO
-    sell-price: 10.0
-  '18':
-    type: SHOP
     id: BAKED_POTATO
     buy-price: 25.0
-  '19':
+  '18':
     type: SHOP
     id: PUMPKIN_PIE
     buy-price: 25.0
-  '20':
+  '19':
     type: SHOP
     id: SWEET_BERRIES
     buy-price: 10.0
     sell-price: 1.5
+  '20':
+    type: SHOP
+    id: BEEF
+    buy-price: 10.0
+    sell-price: 1.0
   '21':
     type: SHOP
-    id: RAW_BEEF
-    buy-price: 10.0
-    sell-price: 1.0
+    id: COOKED_BEEF
+    buy-price: 25.0
   '22':
     type: SHOP
-    id: STEAK
-    buy-price: 25.0
-  '23':
-    type: SHOP
-    id: RAW_CHICKEN
+    id: CHICKEN
     buy-price: 10.0
     sell-price: 1.0
-  '24':
+  '23':
     type: SHOP
     id: COOKED_CHICKEN
     buy-price: 25.0
-  '25':
+  '24':
     type: SHOP
-    id: RAW_RABBIT
+    id: RABBIT
     buy-price: 10.0
     sell-price: 1.0
-  '26':
+  '25':
     type: SHOP
     id: COOKED_RABBIT
     buy-price: 25.0
-  '27':
+  '26':
     type: SHOP
     id: RABBIT_STEW
     buy-price: 25.0
-  '28':
+  '27':
     type: SHOP
-    id: RAW_MUTTON
+    id: MUTTON
     buy-price: 10.0
     sell-price: 1.0
-  '29':
+  '28':
     type: SHOP
     id: COOKED_MUTTON
     buy-price: 25.0
-  '30':
+  '29':
     type: SHOP
     id: BEETROOT
     buy-price: 10.0
     sell-price: 2.0
-  '31':
+  '30':
     type: SHOP
     id: BEETROOT_SOUP
     buy-price: 25.0
-  '32':
+  '31':
     type: SHOP
     id: HONEY_BOTTLE
     buy-price: 50.0
