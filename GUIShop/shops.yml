@@ -748,7 +748,7 @@ DecorationBlocks:
     sell-price: 0.1
   '14':
     type: SHOP
-    id: Red_TULIP
+    id: RED_TULIP
     buy-price: 1.0
     sell-price: 0.1
   '15':
@@ -778,7 +778,7 @@ DecorationBlocks:
     sell-price: 0.1
   '20':
     type: SHOP
-    id: LILY_OF_THE_VALLY
+    id: LILY_OF_THE_VALLEY
     buy-price: 1.0
     sell-price: 0.1
   '21':
@@ -808,12 +808,12 @@ DecorationBlocks:
     sell-price: 1.0
   '26':
     type: SHOP
-    id: CRIMSON_ROOOTS
+    id: CRIMSON_ROOTS
     buy-price: 5.0
     sell-price: 1.0
   '27':
     type: SHOP
-    id: WARPED_ROOT
+    id: WARPED_ROOTS
     buy-price: 5.0
     sell-price: 1.0
   '28':
@@ -1053,7 +1053,7 @@ BuildingBlocks:
     buy-price: 50.0
   '13':
     type: SHOP
-    id: GRACEL
+    id: GRAVEL
     buy-price: 30.0
   '14':
     type: SHOP
@@ -1113,7 +1113,7 @@ BuildingBlocks:
     buy-price: 40.0
   '28':
     type: SHOP
-    id: MOZZY_COBBLESTONE
+    id: MOSSY_COBBLESTONE
     buy-price: 40.0
   '29':
     type: SHOP
@@ -1160,7 +1160,7 @@ BuildingBlocks:
     sell-price: 0.5
   '39':
     type: SHOP
-    id: STONE_BRICK
+    id: STONE_BRICKS
     buy-price: 40.0
   '40':
     type: SHOP
